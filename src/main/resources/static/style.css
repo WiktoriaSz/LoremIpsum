@@ -1,0 +1,84 @@
+body.home {
+    background-image: url("pic2.jpg");
+    image-rendering: high-quality;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+body.loremipsum {
+    background-image: url("pic3.jpg");
+    image-rendering: high-quality;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+form {
+    background: rgba(225, 225, 225, 0.4);
+    box-shadow: dimgray;
+    border-radius: 15px;
+    border-style: groove;
+    font-family: 'Lato', sans-serif;
+    font-min-size: 16px;
+    padding-top: 4%;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 30%;
+    left: 0;
+    width: 40%;
+    height: 40%;
+}
+
+form .list, .amount, .sub, .clear {
+    border: 1px ridge dimgray;
+    border-radius: 5px;
+    box-shadow: 1px 3px #999;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+
+}
+
+.btn button.back{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px ridge dimgray;
+    border-radius: 5px;
+    box-shadow: 1px 3px #999;
+    font-family: 'Lato', sans-serif;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+.lorem {
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+    text-decoration-color: black;
+    background: rgba(225, 225, 225, 0.5);
+    box-shadow: dimgray;
+    border-radius: 15px;
+    border-style: groove;
+    padding-top: 4%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 15%;
+    right: 0;
+    bottom: 15%;
+    left: 0;
+    width: 80%;
+    height: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #282828;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #a5a5a5, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+
+}

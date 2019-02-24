@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Lorem</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Marck+Script" rel="stylesheet">
+</head>
+<body class="loremipsum">
+<div class="wrap">
+    <header>
+        <h1>Twoje Lorem Ipsum: </h1>
+    </header>
+    <div class="lorem">
+        <div th:each="lorem : ${lorem}">
+            <div th:text="${lorem}">
+            </div>
+        </div>
+        <div class="btn">
+            <button class="back">
+                <a href="/" style="text-decoration:none">Wróć</a>
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

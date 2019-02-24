@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="style.css" rel="stylesheet">
+    <title>Lorem Ipsum</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body class="home">
+
+    <form action="/lorem_ipsum" method="post">
+        <header>
+            <h1>Lorem Ipsum</h1>
+        </header>
+        <div>
+            <label for="sample">Wybierz, co chcesz wygenerować:  </label>
+            <select id="sample" name="option" class="list">
+                <option value="words">Słowa</option>
+                <option value="paragraphs">Paragrafy</option>
+            </select>
+            <div>
+                <label for="amount">Podaj ilość:  </label>
+                <input type="number" name="amount" id="amount" min="1" value="1" class="amount">
+            </div>
+            <div class="control-buttons-tab">
+                <td><input type="submit" value="Generuj" class="sub">
+                <td><input type="reset" value="Wyczyść" class="clear">
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
